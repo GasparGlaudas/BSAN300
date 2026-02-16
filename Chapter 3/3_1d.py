@@ -1,0 +1,13 @@
+# count-controlled loops - loops that count 
+# through a range of numbers 
+product = 1
+for count in range(4):
+    product = product * count
+print(product)
+
+# to specify an explicit lower boud
+product = 1 
+for count in range(1, 5): 
+    product = product * count
+print(product)
+

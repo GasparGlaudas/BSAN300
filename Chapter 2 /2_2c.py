@@ -1,0 +1,15 @@
+# The python interpreter first evaluates the expression 
+# on the right side of the assignment symbol and then binds
+# the variable name on the left side of this value. 
+
+firstName = "Ken"
+lastName = "Lambert"
+fullName = firstName + " " + lastName
+print(fullName)
+
+
+# Programmers use all uppercase letters for symbolic constants
+# (variables that contain values that the program never changes)
+
+TAX_RATE = 0.07
+STANDARD_DEDUCTION = 12000
